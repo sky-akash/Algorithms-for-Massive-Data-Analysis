@@ -1,5 +1,8 @@
 #### Project Task : Finding similar items
 
+# The notebook on colab can be run from the following link: 
+https://colab.research.google.com/drive/1SAYL3P0z_kXwdTr3TMSShW73MJQaAhAE?usp=sharing
+
 The task is to implement a detector of pairs of similar book reviews.
 
 Here we implemented a structured flow to process similar reviews.  
