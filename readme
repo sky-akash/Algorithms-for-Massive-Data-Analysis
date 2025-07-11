@@ -1,0 +1,23 @@
+#### Project Task : Finding similar items
+
+The task is to implement a detector of pairs of similar book reviews.
+
+Here we implemented a structured flow to process similar reviews.  
+We worked throught the following steps:
+1. Data Loading and Preprocessing  
+  a. Removing Null Reviews,  
+  b. Genearting a Review_ID to use later on for reduced comparisons  
+      (reveiw_id <- combination of book_id, user_id, review/time  
+      (Creating a hash for it for memory efficiency)  
+  c. Removing Very short reviews (<25 characters lenght),   
+  d. Lemmatizing the Text Tokens for root words.  
+  e. Removing common StopWords and words like book, read etc.  
+2. Hashing the Lemmatized Tokens.  
+3. Performing Locally Sensitive MinHashing.  
+4. Applying Jaccard Similarity
+5. Analysis of Similar Reviews
+
+* Note: to run the code, you will need to uplaod your Kaggle API key file.
+Further, you an toggle to run the code on full dataset of on different fractions of the sample (as we did).
+
+Thanks
