@@ -12,7 +12,7 @@ We worked throught the following steps:
   b. Genearting a Review_ID to use later on for reduced comparisons  
       (reveiw_id <- combination of book_id, user_id, review/time  
       (Creating a hash for it for memory efficiency)  
-  c. Removing Very short reviews (<25 characters lenght),   
+  c. Removing Very short reviews (<50 characters lenght),   
   d. Lemmatizing the Text Tokens for root words.  
   e. Removing common StopWords and words like book, read etc.  
 2. Hashing the Lemmatized Tokens.  
@@ -21,6 +21,6 @@ We worked throught the following steps:
 5. Analysis of Similar Reviews
 
 * Note: to run the code, you will need to uplaod your Kaggle API key file.
-Further, you an toggle to run the code on full dataset of on different fractions of the sample (as we did).
+Further, you an toggle to run the code on full dataset of on different fractions of the sample (as I did).
 
 Thanks
